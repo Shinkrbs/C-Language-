@@ -24,7 +24,7 @@ bool armstrongNum(int n)
     printf("\n");
     printf("Values: ");
     
-    //extract the digits of num and raise the nums by 3
+    //extract the digits of num and raise the nums by obtained number of digits == pow
     while (n != 0)
     {
         digit = n % 10; //Extract the digit from the number 
