@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+//The number is still limited to 1023 
+//Still need some changes
+
 int binary(int decimal);
 
 int main()
@@ -10,9 +13,23 @@ int main()
     printf("Input Number: ");
     scanf("%d", &decimal);
 
-    binaryNumber = binary(decimal);
+    if (decimal <= 1023)
+    {
+        binaryNumber = binary(decimal);
  
-    printf("%d in Binary: %d", decimal, binaryNumber);
+        printf("%d in Binary: %d", decimal, binaryNumber);
+    }
+
+    if (decimal > 1023)
+    {
+        printf("Input a Lower Number!\n");
+        printf("Input Number: ");
+        scanf("%d", &decimal);
+
+        binaryNumber = binary(decimal);
+ 
+        printf("%d in Binary: %d", decimal, binaryNumber);
+    }
     
     return 0;
 }
