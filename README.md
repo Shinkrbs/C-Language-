@@ -4,5 +4,4 @@ Welcome to my C Language Study Repository! 🚀 This repository serves as a trac
 
 ## Contents:
 
-- **Solved Problems:** This consists of problems I found in various platform that I solved.
-- **Project-Based Learning:** I studied existing applications and tried coding it.
+-Things that gave me depression yet very fun to solve-
