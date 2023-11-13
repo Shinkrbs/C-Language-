@@ -8,9 +8,10 @@
 
 int main()
 {
-    int fibonacci[15];
-    fibonacci[0] = 1;
-    fibonacci[1] = 1;
+    int fibonacci[15] = {1, 1}; //Can do this
+    //or assign values in idex
+    //fibonacci[0] = 1;
+    //fibonacci[1] = 1;
     int fibonacciRandom[50];
 
     //find 15 elements of fibonacci sequence
