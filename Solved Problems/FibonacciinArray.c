@@ -9,7 +9,7 @@
 int main()
 {
     int fibonacci[15] = {1, 1}; //Can do this
-    //or assign values in idex
+    //or assign values in index
     //fibonacci[0] = 1;
     //fibonacci[1] = 1;
     int fibonacciRandom[50];
