@@ -45,7 +45,12 @@ int main()
     {
         for (int n = 0; n < 5; n++)
         {
-            if (sourceArray[m][n] % 2 == 0)
+            if (sourceArray[m][n] == 0)
+            {
+                break;
+            }
+            
+            else if (sourceArray[m][n] != 0 && sourceArray[m][n] % 2 == 0)
             {
                 evenArray[m][n] = sourceArray[m][n];
                 printf("%d ", evenArray[m][n]);
